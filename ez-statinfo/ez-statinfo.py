@@ -11,6 +11,7 @@ def update_stats():
     root.after(1000, update_stats)  
 
 root = tk.Tk()
+root.title("Easy System Info")
 root.geometry("600x50")
 root.configure(bg="black")
 
