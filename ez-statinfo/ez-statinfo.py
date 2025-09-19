@@ -1,3 +1,5 @@
+# Licensed under the MIT License
+
 import psutil
 import tkinter as tk
 
