@@ -18,6 +18,7 @@ install_ez-statinfo() {
         cp "$source_file" "$target_file"
         chmod +x "$target_file"
         echo "ez-statinfo.py has been copied to $HOME"
+        echo
 
 # Create .desktop file for menu 
 
@@ -32,12 +33,15 @@ Terminal=false
 Categories=System;Utility;
 EOL
         echo "Menu entry created at $desktop_file"
+        echo
 
         sleep 2
     elif [[ "$inst" =~ ^[nN]$ ]]; then
         echo "Operation cancelled"
+        echo
     else
         echo "Invalid input. Please respond with 'y' or 'n'."
+        echo
     fi
 }
 
