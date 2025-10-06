@@ -34,6 +34,8 @@ Categories=System;Utility;
 EOL
         echo "Menu entry created at $desktop_file"
         echo
+        echo "Done!"
+        echo
 
         sleep 2
     elif [[ "$inst" =~ ^[nN]$ ]]; then
