@@ -3,7 +3,8 @@ Easily view CPU, RAM, and disk usage
 
 Designed for Bodhi Linux. Allows you to simply and rudimentary display the amount of CPU, RAM, and disk used. A small window with a black background and white text.
 
-<img width="981" height="192" alt="shot2025" src="https://github.com/user-attachments/assets/3360b486-6450-4d67-982f-fb31eae4996c" />
+<img width="714" height="173" alt="shot-2025-10-18" src="https://github.com/user-attachments/assets/dffb382a-49ae-447b-ab46-3b3467272fa2" />
+
 
 **Install:**
 ------------
