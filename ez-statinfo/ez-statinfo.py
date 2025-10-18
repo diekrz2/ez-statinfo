@@ -26,6 +26,7 @@ root.overrideredirect(True)
 label = tk.Label(root, text="", fg="white", bg="black", font=("Arial", 11))
 label.pack(expand=True, fill='both')
 
+# Button
 button = tk.Button(root, text="x", fg="white", bg="black", relief="solid", bd=2, width=1, command=close_app)
 button.pack(side='bottom')
 
