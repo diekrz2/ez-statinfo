@@ -37,7 +37,7 @@ EOL
         echo "Done!"
         echo
 
-        sleep 2
+        sleep 1
     elif [[ "$inst" =~ ^[nN]$ ]]; then
         echo "Operation cancelled"
         echo
