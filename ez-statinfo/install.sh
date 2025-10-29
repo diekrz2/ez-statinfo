@@ -10,7 +10,6 @@ install_ez-statinfo() {
 
     echo "Do you want to install ez-statinfo? (y/n)"
     read -r inst
-    echo
 
 # Copy ez-statinfo.py to $HOME
 
@@ -18,7 +17,6 @@ install_ez-statinfo() {
         cp "$source_file" "$target_file"
         chmod +x "$target_file"
         echo "ez-statinfo.py has been copied to $HOME"
-        echo
 
 # Create .desktop file for menu 
 
