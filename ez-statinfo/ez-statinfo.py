@@ -7,7 +7,9 @@ def update_stats():
     cpu = psutil.cpu_percent(interval=0.1)
     mem = psutil.virtual_memory()
     disk = psutil.disk_usage('/')
-    text = f"CPU: {cpu:.0f}%    RAM: {mem.used // 1024**2}MB / {mem.total // 1024**2}MB    SSD: {disk.used // 1024**3}GB / {disk.total // 1024**3}GB"
+    
+# The space can be adjusted
+    text = f"CPU: {cpu:.0f}%     RAM: {mem.used // 1024**2}MB / {mem.total // 1024**2}MB     SSD: {disk.used // 1024**3}GB / {disk.total // 1024**3}GB"
     label.config(text=text)
     
 # Update every 1s
