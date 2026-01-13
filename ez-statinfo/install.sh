@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Install ez-statinfo.py: Copies to $HOME and adds to menu
+# Install ez-statinfo.py: Copies to $HOME and creates a menu entry
 # Licensed under the MIT License
 
 install_ez-statinfo() {
