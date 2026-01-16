@@ -28,7 +28,7 @@ Comment=Display CPU, RAM, and Disk usage
 Exec=python3 $target_file
 Type=Application
 Terminal=false
-Categories=System;Utility;
+Categories=Utility;
 EOL
         echo "Menu entry created at $desktop_file"
         echo
