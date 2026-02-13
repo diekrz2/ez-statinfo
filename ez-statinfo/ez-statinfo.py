@@ -8,7 +8,7 @@ def update_stats():
     mem = psutil.virtual_memory()
     disk = psutil.disk_usage('/')
     
-# The space can be adjusted
+# The space between statistics can be adjusted
     text = f"CPU: {cpu:.0f}%     RAM: {mem.used // 1024**2}MB / {mem.total // 1024**2}MB     SSD: {disk.used // 1024**3}GB / {disk.total // 1024**3}GB"
     label.config(text=text)
     
