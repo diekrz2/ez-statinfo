@@ -32,6 +32,7 @@ def drag_move(event):
     root.drag_start_x = event.x_root
     root.drag_start_y = event.y_root
 
+# Appearance
 root = tk.Tk()
 root.geometry("600x80")
 root.configure(bg="black")
