@@ -51,7 +51,7 @@ drag_bar.pack(side='top', pady=1, anchor='n')
 drag_bar.bind("<Button-1>", drag)
 drag_bar.bind("<B1-Motion>", drag_move)
 
-label = tk.Label(root, text="", fg="white", bg="black", font=("Arial", 11))
+label = tk.Label(root, text="", fg="white", bg="black", font=("Noto Sans", 11))
 label.pack(expand=True, fill='both')
 
 update_stats()  
