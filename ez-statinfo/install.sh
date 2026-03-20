@@ -29,6 +29,7 @@ Exec=python3 $target_file
 Type=Application
 Terminal=false
 Categories=Utility;
+Icon=gtk-info.svg
 EOL
         echo "Menu entry created at $desktop_file"
         echo
